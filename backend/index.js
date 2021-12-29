@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use("/posts",postRoutes);
 
-const URL ="mongodb+srv://tejaswani:tejaswani23@cluster0.bve3e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const URL =""
 const PORT= process.env.PORT || 5000;
 
 mongoose.connect(URL,{
